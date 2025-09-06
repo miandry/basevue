@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://miandrilala.online',
+  baseURL: window.SERVER_URL,
   headers: { 'Content-Type': 'application/json' }
 })
 
